@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Set up Azure OpenAI environment variables
-os.environ["AZURE_OPENAI_API_KEY"] = os.getenv("AZURE_OPENAI_API_KEY")
+os.environ["AZURE_OPENAI_API_KEY"] = st.secrets["azure_openai"]["api_key"]
 os.environ["AZURE_OPENAI_ENDPOINT"] = "https://langchain12.openai.azure.com/"  # Base URL of the Azure endpoint
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
 
