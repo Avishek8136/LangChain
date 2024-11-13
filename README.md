@@ -19,7 +19,7 @@ This bot utilizes LangChain's agent functionalities and connects to the Azure Op
 2. Ensure you have Python 3.8 or later installed.
 3. Install required packages:
    ```bash
-   pip install langchain
+   pip install -r requirements.txt
    ```
 4. Verify the installation by running a simple LangChain script, such as initializing a basic chain.
 
